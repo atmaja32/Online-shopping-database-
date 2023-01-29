@@ -31,3 +31,6 @@ then it will not be present in cart_items.
 
 ## ER Diagram
 ![image](https://user-images.githubusercontent.com/37374785/215333724-a6b982ba-b1d2-40cc-a27b-a811b8dddbba.png)
+
+## Sample user interaction
+![image](https://user-images.githubusercontent.com/37374785/215333922-d55eff6f-bff7-4180-96f4-02115dc9e891.png)
