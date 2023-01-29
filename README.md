@@ -13,19 +13,21 @@ database which has all the information about apparel, retailers, shipping, items
 customer details, payments etc.
 
 ## Business Rules
+
 The application has the following business rules:
-● A customer can have any number of carts.
-● A customer can make any number of payments.
-● A payment is made by exactly one customer for exactly one cart.
-● A cart can have exactly one payment made by exactly one customer.
-● An order can be shipped by exactly one shipper.
-● A shipper can ship any number of orders.
-● An order can contain any number of cart_items.
-● A cart_item can belong to exactly one order.
-● Any number of apparel can be added to cart_items, but if apparel is not in stock,
+
+1. A customer can have any number of carts.
+2. A customer can make any number of payments.
+3. A payment is made by exactly one customer for exactly one cart.
+4. A cart can have exactly one payment made by exactly one customer.
+5. An order can be shipped by exactly one shipper.
+6. A shipper can ship any number of orders.
+7. An order can contain any number of cart_items.
+8. A cart_item can belong to exactly one order.
+9. Any number of apparel can be added to cart_items, but if apparel is not in stock,
 then it will not be present in cart_items.
-● Apparel must be sold by at least one retailer to be recorded in the database.
-● A retailer can sell any number of apparel.
+10. Apparel must be sold by at least one retailer to be recorded in the database.
+11. A retailer can sell any number of apparel.
 
 ## ER Diagram
 ![image](https://user-images.githubusercontent.com/37374785/215333724-a6b982ba-b1d2-40cc-a27b-a811b8dddbba.png)
